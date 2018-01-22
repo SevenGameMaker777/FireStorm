@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="_Source">
+      <UniqueIdentifier>{bfe06cd9-362c-454c-83df-b4e1201d3c7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_Source\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="_Source\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="_Source\Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="FSGUI">
+      <UniqueIdentifier>{d257442b-0b2d-42f3-a559-201cb9079f19}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\_Include\FSApplication.h">
+      <Filter>_Source\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Include\FSEngine.h">
+      <Filter>_Source\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Include\FSEventHandler.h">
+      <Filter>_Source\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Include\FSLevel.h">
+      <Filter>_Source\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Include\FSLevelManager.h">
+      <Filter>_Source\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Include\FSLogger.h">
+      <Filter>_Source\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Include\FSMessageManager.h">
+      <Filter>_Source\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Include\FSObject.h">
+      <Filter>_Source\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Include\FSObjectFactory.h">
+      <Filter>_Source\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Include\FSObjectManager.h">
+      <Filter>_Source\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Include\FSPropertyManager.h">
+      <Filter>_Source\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Include\FSUtils.h">
+      <Filter>_Source\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Include\FSClassManager.h">
+      <Filter>_Source\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FSGUI\CGUI_ColorPicker.h">
+      <Filter>FSGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FSGUI\CGUIFileOpenDialog.h">
+      <Filter>FSGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FSGUI\CPropertyGrid.h">
+      <Filter>FSGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FSGUI\FSGUI.h">
+      <Filter>FSGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FSGUI\FSGUI_AssetViewer.h">
+      <Filter>FSGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FSGUI\FSGUI_Combobox.h">
+      <Filter>FSGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FSGUI\FSGUI_Desktop.h">
+      <Filter>FSGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FSGUI\FSGUI_FilePicker.h">
+      <Filter>FSGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FSGUI\FSGUI_LevelEditor.h">
+      <Filter>FSGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FSGUI\FSGUI_LevelViewer.h">
+      <Filter>FSGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FSGUI\FSGUI_LoggerTabView.h">
+      <Filter>FSGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FSGUI\FSGUI_LoggerView.h">
+      <Filter>FSGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FSGUI\FSGUI_Menu.h">
+      <Filter>FSGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FSGUI\FSGUI_Menubar.h">
+      <Filter>FSGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FSGUI\FSGUI_ModelViewer.h">
+      <Filter>FSGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FSGUI\FSGUI_ObjectMaker.h">
+      <Filter>FSGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FSGUI\FSGUI_ObjectViewer.h">
+      <Filter>FSGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FSGUI\FSGUI_PrefabMaker.h">
+      <Filter>FSGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FSGUI\FSGUI_PropertyGrid.h">
+      <Filter>FSGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FSGUI\FSGUI_PropertyGridObject.h">
+      <Filter>FSGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FSGUI\FSGUI_Ribbonbar.h">
+      <Filter>FSGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FSGUI\FSGUI_RibbonbarImage.h">
+      <Filter>FSGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FSGUI\FSGUI_Scrollbar.h">
+      <Filter>FSGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FSGUI\FSGUI_Systembar.h">
+      <Filter>FSGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FSGUI\FSGUI_TextAreaView.h">
+      <Filter>FSGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FSGUI\FSGUI_Titlebar.h">
+      <Filter>FSGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FSGUI\FSGUI_Toolbar.h">
+      <Filter>FSGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FSGUI\FSGUI_Window.h">
+      <Filter>FSGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FSGUI\FSGUITreeView.h">
+      <Filter>FSGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FSGUI\Line.h">
+      <Filter>FSGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FSGUI\TextArea.h">
+      <Filter>FSGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\_Externals\irrlicht-1.8.4\irrlicht-1.8.4\source\Irrlicht\CGUIContextMenu.h">
+      <Filter>FSGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\_Externals\irrlicht-1.8.4\irrlicht-1.8.4\source\Irrlicht\os.h">
+      <Filter>_Source\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\_Externals\irrlicht-1.8.4\irrlicht-1.8.4\source\Irrlicht\CGUIListBox.h">
+      <Filter>FSGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\_Externals\irrlicht-1.8.4\irrlicht-1.8.4\source\Irrlicht\CGUIScrollBar.h">
+      <Filter>FSGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\_Externals\irrlicht-1.8.4\irrlicht-1.8.4\source\Irrlicht\CGUIButton.h">
+      <Filter>FSGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Include\FSSceneNodeAnimatorFPS.h">
+      <Filter>_Source\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Include\FSPhysX.h">
+      <Filter>_Source\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Include\FSObject_Character.h">
+      <Filter>_Source\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Include\FSActionTable.h">
+      <Filter>_Source\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Include\FS_AIGoalManager.h">
+      <Filter>_Source\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Include\FS_BlackBoard.h">
+      <Filter>_Source\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Include\FSAI.h">
+      <Filter>_Source\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FSGUI\FSGUI_Editor.h">
+      <Filter>FSGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\FSGUI\Defines.h">
+      <Filter>FSGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\_Include\FSTerrainEditorNode.h">
+      <Filter>_Source\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\_Source\FSApplication.cpp">
+      <Filter>_Source\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Source\FSEngine.cpp">
+      <Filter>_Source\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Source\FSLevel.cpp">
+      <Filter>_Source\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Source\FSLevelManager.cpp">
+      <Filter>_Source\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Source\FSLogger.cpp">
+      <Filter>_Source\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Source\FSMessageManager.cpp">
+      <Filter>_Source\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Source\FSObject.cpp">
+      <Filter>_Source\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Source\FSObjectFactory.cpp">
+      <Filter>_Source\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Source\FSObjectManager.cpp">
+      <Filter>_Source\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Source\FSPropertyManager.cpp">
+      <Filter>_Source\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Source\FSUtils.cpp">
+      <Filter>_Source\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Source\FSClassManager.cpp">
+      <Filter>_Source\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Source\FSEventHandler.cpp">
+      <Filter>_Source\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FSGUI\CGUI_ColorPicker.cpp">
+      <Filter>FSGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FSGUI\CGUIFileOpenDialog.cpp">
+      <Filter>FSGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FSGUI\CPropertyGrid.cpp">
+      <Filter>FSGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FSGUI\FSGUI.cpp">
+      <Filter>FSGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FSGUI\FSGUI_Combobox.cpp">
+      <Filter>FSGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FSGUI\FSGUI_Desktop.cpp">
+      <Filter>FSGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FSGUI\FSGUI_Menu.cpp">
+      <Filter>FSGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FSGUI\FSGUI_Window.cpp">
+      <Filter>FSGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FSGUI\FSGUITreeView.cpp">
+      <Filter>FSGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FSGUI\Line.cpp">
+      <Filter>FSGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\FSGUI\TextArea.cpp">
+      <Filter>FSGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\_Externals\irrlicht-1.8.4\irrlicht-1.8.4\source\Irrlicht\CGUIContextMenu.cpp">
+      <Filter>FSGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\_Externals\irrlicht-1.8.4\irrlicht-1.8.4\source\Irrlicht\os.cpp">
+      <Filter>_Source\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\_Externals\irrlicht-1.8.4\irrlicht-1.8.4\source\Irrlicht\CGUIListBox.cpp">
+      <Filter>FSGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\_Externals\irrlicht-1.8.4\irrlicht-1.8.4\source\Irrlicht\CGUIScrollBar.cpp">
+      <Filter>FSGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\_Externals\irrlicht-1.8.4\irrlicht-1.8.4\source\Irrlicht\CGUIButton.cpp">
+      <Filter>FSGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Source\FSSceneNodeAnimatorFPS.cpp">
+      <Filter>_Source\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Source\FSPhysXManager.cpp">
+      <Filter>_Source\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Source\FSPhysXObject.cpp">
+      <Filter>_Source\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Source\FSPhysXWorld.cpp">
+      <Filter>_Source\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Source\FSObject_Character.cpp">
+      <Filter>_Source\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Source\FS_AIGoalManager.cpp">
+      <Filter>_Source\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Source\FS_BlackBoard.cpp">
+      <Filter>_Source\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\_Source\FSAI.cpp">
+      <Filter>_Source\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>_Source</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{AED57855-5447-47B0-8DBD-06AB46AE2DF0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>FireStorm</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\_Lib\</OutDir>
+    <IncludePath>..\..\_Externals\PhysX33\PhysX-3.3-master\PhysXSDK\Include;..\..\_Externals\irrlicht-1.8.4\irrlicht-1.8.4\source\Irrlicht;..\..\FSGUI;..\..\_Externals\irrKlang-32bit-1.5.0\irrKlang-1.5.0\include;..\..\_Externals\irrlicht-1.8.4\irrlicht-1.8.4\include;..\..\FireStorm\_Include;$(IncludePath)</IncludePath>
+    <TargetName>$(ProjectName)_debug</TargetName>
+    <LibraryPath>..\..\_Externals\PhysX33\PhysX-3.3-master\PhysXSDK\Lib\vc12win32;..\..\_Externals\irrKlang-32bit-1.5.0\irrKlang-1.5.0\lib\Win32-visualStudio;..\..\_Externals\irrlicht-1.8.4\irrlicht-1.8.4\lib\Win32-visualstudio;..\..\FireStorm\_Lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\_Lib\</OutDir>
+    <IncludePath>..\..\_Externals\PhysX33\PhysX-3.3-master\PhysXSDK\Include;..\..\_Externals\irrlicht-1.8.4\irrlicht-1.8.4\source\Irrlicht;..\..\FSGUI;..\..\_Externals\irrKlang-32bit-1.5.0\irrKlang-1.5.0\include;..\..\_Externals\irrlicht-1.8.4\irrlicht-1.8.4\include;..\..\FireStorm\_Include;$(IncludePath)</IncludePath>
+    <LibraryPath>..\..\_Externals\PhysX33\PhysX-3.3-master\PhysXSDK\Lib\vc12win32;..\..\_Externals\irrKlang-32bit-1.5.0\irrKlang-1.5.0\lib\Win32-visualStudio;..\..\_Externals\irrlicht-1.8.4\irrlicht-1.8.4\lib\Win32-visualstudio;..\..\FireStorm\_Lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\FSGUI\CGUIFileOpenDialog.h" />
+    <ClInclude Include="..\..\FSGUI\CGUI_ColorPicker.h" />
+    <ClInclude Include="..\..\FSGUI\CPropertyGrid.h" />
+    <ClInclude Include="..\..\FSGUI\Defines.h" />
+    <ClInclude Include="..\..\FSGUI\FSGUI.h" />
+    <ClInclude Include="..\..\FSGUI\FSGUITreeView.h" />
+    <ClInclude Include="..\..\FSGUI\FSGUI_AssetViewer.h" />
+    <ClInclude Include="..\..\FSGUI\FSGUI_Combobox.h" />
+    <ClInclude Include="..\..\FSGUI\FSGUI_Desktop.h" />
+    <ClInclude Include="..\..\FSGUI\FSGUI_Editor.h" />
+    <ClInclude Include="..\..\FSGUI\FSGUI_FilePicker.h" />
+    <ClInclude Include="..\..\FSGUI\FSGUI_LevelEditor.h" />
+    <ClInclude Include="..\..\FSGUI\FSGUI_LevelViewer.h" />
+    <ClInclude Include="..\..\FSGUI\FSGUI_LoggerTabView.h" />
+    <ClInclude Include="..\..\FSGUI\FSGUI_LoggerView.h" />
+    <ClInclude Include="..\..\FSGUI\FSGUI_Menu.h" />
+    <ClInclude Include="..\..\FSGUI\FSGUI_Menubar.h" />
+    <ClInclude Include="..\..\FSGUI\FSGUI_ModelViewer.h" />
+    <ClInclude Include="..\..\FSGUI\FSGUI_ObjectMaker.h" />
+    <ClInclude Include="..\..\FSGUI\FSGUI_ObjectViewer.h" />
+    <ClInclude Include="..\..\FSGUI\FSGUI_PrefabMaker.h" />
+    <ClInclude Include="..\..\FSGUI\FSGUI_PropertyGrid.h" />
+    <ClInclude Include="..\..\FSGUI\FSGUI_PropertyGridObject.h" />
+    <ClInclude Include="..\..\FSGUI\FSGUI_Ribbonbar.h" />
+    <ClInclude Include="..\..\FSGUI\FSGUI_RibbonbarImage.h" />
+    <ClInclude Include="..\..\FSGUI\FSGUI_Scrollbar.h" />
+    <ClInclude Include="..\..\FSGUI\FSGUI_Systembar.h" />
+    <ClInclude Include="..\..\FSGUI\FSGUI_TextAreaView.h" />
+    <ClInclude Include="..\..\FSGUI\FSGUI_Titlebar.h" />
+    <ClInclude Include="..\..\FSGUI\FSGUI_Toolbar.h" />
+    <ClInclude Include="..\..\FSGUI\FSGUI_Window.h" />
+    <ClInclude Include="..\..\FSGUI\Line.h" />
+    <ClInclude Include="..\..\FSGUI\TextArea.h" />
+    <ClInclude Include="..\..\_Externals\irrlicht-1.8.4\irrlicht-1.8.4\source\Irrlicht\CGUIButton.h" />
+    <ClInclude Include="..\..\_Externals\irrlicht-1.8.4\irrlicht-1.8.4\source\Irrlicht\CGUIContextMenu.h" />
+    <ClInclude Include="..\..\_Externals\irrlicht-1.8.4\irrlicht-1.8.4\source\Irrlicht\CGUIListBox.h" />
+    <ClInclude Include="..\..\_Externals\irrlicht-1.8.4\irrlicht-1.8.4\source\Irrlicht\CGUIScrollBar.h" />
+    <ClInclude Include="..\..\_Externals\irrlicht-1.8.4\irrlicht-1.8.4\source\Irrlicht\os.h" />
+    <ClInclude Include="..\_Include\FSActionTable.h" />
+    <ClInclude Include="..\_Include\FSAI.h" />
+    <ClInclude Include="..\_Include\FSApplication.h" />
+    <ClInclude Include="..\_Include\FSClassManager.h" />
+    <ClInclude Include="..\_Include\FSEngine.h" />
+    <ClInclude Include="..\_Include\FSEventHandler.h" />
+    <ClInclude Include="..\_Include\FSLevel.h" />
+    <ClInclude Include="..\_Include\FSLevelManager.h" />
+    <ClInclude Include="..\_Include\FSLogger.h" />
+    <ClInclude Include="..\_Include\FSMessageManager.h" />
+    <ClInclude Include="..\_Include\FSObject.h" />
+    <ClInclude Include="..\_Include\FSObjectFactory.h" />
+    <ClInclude Include="..\_Include\FSObjectManager.h" />
+    <ClInclude Include="..\_Include\FSObject_Character.h" />
+    <ClInclude Include="..\_Include\FSPhysX.h" />
+    <ClInclude Include="..\_Include\FSPropertyManager.h" />
+    <ClInclude Include="..\_Include\FSSceneNodeAnimatorFPS.h" />
+    <ClInclude Include="..\_Include\FSTerrainEditorNode.h" />
+    <ClInclude Include="..\_Include\FSUtils.h" />
+    <ClInclude Include="..\_Include\FS_AIGoalManager.h" />
+    <ClInclude Include="..\_Include\FS_BlackBoard.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\FSGUI\CGUIFileOpenDialog.cpp" />
+    <ClCompile Include="..\..\FSGUI\CGUI_ColorPicker.cpp" />
+    <ClCompile Include="..\..\FSGUI\CPropertyGrid.cpp" />
+    <ClCompile Include="..\..\FSGUI\FSGUI.cpp" />
+    <ClCompile Include="..\..\FSGUI\FSGUITreeView.cpp" />
+    <ClCompile Include="..\..\FSGUI\FSGUI_Combobox.cpp" />
+    <ClCompile Include="..\..\FSGUI\FSGUI_Desktop.cpp" />
+    <ClCompile Include="..\..\FSGUI\FSGUI_Menu.cpp" />
+    <ClCompile Include="..\..\FSGUI\FSGUI_Window.cpp" />
+    <ClCompile Include="..\..\FSGUI\Line.cpp" />
+    <ClCompile Include="..\..\FSGUI\TextArea.cpp" />
+    <ClCompile Include="..\..\_Externals\irrlicht-1.8.4\irrlicht-1.8.4\source\Irrlicht\CGUIButton.cpp" />
+    <ClCompile Include="..\..\_Externals\irrlicht-1.8.4\irrlicht-1.8.4\source\Irrlicht\CGUIContextMenu.cpp" />
+    <ClCompile Include="..\..\_Externals\irrlicht-1.8.4\irrlicht-1.8.4\source\Irrlicht\CGUIListBox.cpp" />
+    <ClCompile Include="..\..\_Externals\irrlicht-1.8.4\irrlicht-1.8.4\source\Irrlicht\CGUIScrollBar.cpp" />
+    <ClCompile Include="..\..\_Externals\irrlicht-1.8.4\irrlicht-1.8.4\source\Irrlicht\os.cpp" />
+    <ClCompile Include="..\_Source\FSAI.cpp" />
+    <ClCompile Include="..\_Source\FSApplication.cpp" />
+    <ClCompile Include="..\_Source\FSClassManager.cpp" />
+    <ClCompile Include="..\_Source\FSEngine.cpp" />
+    <ClCompile Include="..\_Source\FSEventHandler.cpp" />
+    <ClCompile Include="..\_Source\FSLevel.cpp" />
+    <ClCompile Include="..\_Source\FSLevelManager.cpp" />
+    <ClCompile Include="..\_Source\FSLogger.cpp" />
+    <ClCompile Include="..\_Source\FSMessageManager.cpp" />
+    <ClCompile Include="..\_Source\FSObject.cpp" />
+    <ClCompile Include="..\_Source\FSObjectFactory.cpp" />
+    <ClCompile Include="..\_Source\FSObjectManager.cpp" />
+    <ClCompile Include="..\_Source\FSObject_Character.cpp" />
+    <ClCompile Include="..\_Source\FSPhysXManager.cpp" />
+    <ClCompile Include="..\_Source\FSPhysXObject.cpp" />
+    <ClCompile Include="..\_Source\FSPhysXWorld.cpp" />
+    <ClCompile Include="..\_Source\FSPropertyManager.cpp" />
+    <ClCompile Include="..\_Source\FSSceneNodeAnimatorFPS.cpp" />
+    <ClCompile Include="..\_Source\FSUtils.cpp" />
+    <ClCompile Include="..\_Source\FS_AIGoalManager.cpp" />
+    <ClCompile Include="..\_Source\FS_BlackBoard.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
